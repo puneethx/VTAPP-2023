@@ -1,0 +1,25 @@
+.App {
+  font-family: "DINNextW1G-Regular";
+  background-color: #100F14;
+  color: white;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    z-index: 0;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, rgba(18, 26, 50, 0.6),transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+
+  &:hover::before {
+    --size: 300px;
+  }
+}
