@@ -1,14 +1,17 @@
-.events{
+.events {
     z-index: 2;
-    .filter{
+
+    .filter {
         display: flex;
         gap: 3vw;
         justify-content: space-between;
         margin: 4vh 7vw;
-        .left{
+
+        .left {
             gap: 3vw;
             display: flex;
-            button{
+
+            button {
                 width: 120px;
                 height: 5vh;
                 border-radius: 7px;
@@ -21,8 +24,41 @@
                 cursor: pointer;
                 z-index: 10;
             }
+            .selector{
+                cursor: pointer;
+                z-index: 100;
+                .select {
+                    width: 120px;
+                    height: 5vh;
+                    border-radius: 7px;
+                    background-color: #1D1E1F;
+                    border: none;
+                    outline: none;
+                    font-family: "Chakra Petch";
+                    color: white;
+                    font-size: 17px;
+                    cursor: pointer;
+                    appearance: none;
+                    text-align: center;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    transition: font-family 0.9s;
+                    z-index: 100;
+                    &:hover{
+                        font-family: "ephesis";
+                    }
+                }
+                select option{
+                    font-family: "DINNextW1G-Regular";
+                    font-size: 14px;
+                }
+                select option:disabled{
+                    font-family: "ephesis";
+                }
+            }
         }
-        .search{
+
+        .search {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -30,7 +66,8 @@
             border: 1px solid #333333;
             border-radius: 7px;
             z-index: 10;
-            input{
+
+            input {
                 width: 35vw;
                 outline: none;
                 margin-left: 0.5vw;
@@ -40,21 +77,24 @@
                 font-family: "DINNextW1G-Regular";
                 font-size: 16px;
             }
-            .icon{
+
+            .icon {
                 margin-right: 1vw;
             }
-            
+
         }
     }
-    .main{
+
+    .main {
         display: flex;
         justify-content: center;
         align-items: center;
-        .allcards{
+
+        .allcards {
             display: flex;
             flex-wrap: wrap;
-            width: 80vw;
-            gap: 6vw;
+            width: 85vw;
+            gap: 4vw;
             margin: 10vh 0vw;
         }
     }
