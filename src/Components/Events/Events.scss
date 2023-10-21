@@ -18,14 +18,14 @@
                 background-color: #1D1E1F;
                 border: none;
                 outline: none;
-                font-family: "ephesis";
+                // font-family: "ephesis";
                 color: white;
                 font-size: 17px;
-                cursor: pointer;
+                cursor: url('../../assets/cursor_laser_hover_icon.svg'), auto;
                 z-index: 10;
             }
             .selector{
-                cursor: pointer;
+                
                 z-index: 100;
                 .select {
                     width: 120px;
@@ -37,7 +37,7 @@
                     font-family: "Chakra Petch";
                     color: white;
                     font-size: 17px;
-                    cursor: pointer;
+                    cursor: url('../../assets/cursor_laser_hover_icon.svg'), auto;
                     appearance: none;
                     text-align: center;
                     -webkit-appearance: none;
@@ -45,7 +45,8 @@
                     transition: font-family 0.9s;
                     z-index: 100;
                     &:hover{
-                        font-family: "ephesis";
+                        cursor: url('../../assets/cursor_laser_hover_icon.svg'), auto;
+                        // font-family: "ephesis";
                     }
                 }
                 select option{

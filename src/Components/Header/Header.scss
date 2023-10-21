@@ -5,8 +5,14 @@
     flex-direction: column;
     z-index: 10;
     background-color: black;
-    padding-top: 4vh;
+    padding-top: 0vh;
     border-bottom: 1px solid #595959;
+    h1{
+        letter-spacing: 4%;
+        margin: 0;
+        font-family: Starjedi;
+        font-size: 3.2rem;
+    }
     .navbar{
         position: relative;
         ul{
@@ -41,7 +47,7 @@
                 padding: 30px;
                 padding-bottom: 0;
                 &:hover{
-                    cursor: pointer;
+                    cursor: url('../../assets/cursor_laser_hover_icon.svg'), auto;
                     .box{
                         width: 85px;
                         height: 2.5px;
