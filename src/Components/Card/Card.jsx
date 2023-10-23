@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Back from "./card.png"
 import useSound from 'use-sound';
 // import ringer from "./flipdish-ringer.mp3";
+import hoverSound from './assets/hover.mp3';
+import clickSound from "./assets/click.mp3";
 import "./Card.scss";
 
 const Card = ({ club, branch, title, cardImg, description }) => {
+  const [hoverPlay] = useSound(hoverSound);
+  const [clickPlay] = useSound(clickSound);
   return (
-    <div className='card'>
+    <div className='card' onMouseEnter={hoverPlay} onClick={clickPlay}>
       <div className="one">
         <img src={Back} alt="Loading.." className='img' />
         <span className='left'>{club}</span>

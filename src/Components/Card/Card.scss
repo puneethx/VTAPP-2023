@@ -1,5 +1,6 @@
 .card {
     cursor: url('../../assets/cursor_laser_hover_icon.svg'), auto;
+    color: #5A5C5D;
     .one {
         position: relative;
         width: 380px;
@@ -122,6 +123,8 @@
     }
 
     &:hover {
+        color: #dadada;
+        transition: 1s;
         .one {
             .load {
                 .l1 {
@@ -184,8 +187,9 @@
         }
         .centerImg{
             .cardImg{
-                opacity: 0.3;
-                transition: 0.3s;
+                opacity: 0.75;
+                filter: blur(5px);
+                transition: 0.5s;
             }
         }
     }
