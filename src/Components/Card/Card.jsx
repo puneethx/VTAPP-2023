@@ -1,5 +1,7 @@
 import React from 'react'
 import Back from "./card.png"
+import useSound from 'use-sound';
+// import ringer from "./flipdish-ringer.mp3";
 import "./Card.scss";
 
 const Card = ({ club, branch, title, cardImg, description }) => {
