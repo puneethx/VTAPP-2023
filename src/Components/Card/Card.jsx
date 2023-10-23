@@ -7,10 +7,18 @@ import clickSound from "./assets/click.mp3";
 import "./Card.scss";
 
 const Card = ({ club, branch, title, cardImg, description }) => {
-  const [hoverPlay] = useSound(hoverSound);
-  const [clickPlay] = useSound(clickSound);
+  const [hoverPlay] = useSound(hoverSound, { volume: 0.5 });
+  const [clickPlay] = useSound(clickSound, { volume: 0.2 });
+
+  const handleMouseEnter = () => {
+    hoverPlay();
+  };
+  const handleClick = () => {
+    clickPlay();
+  }
+
   return (
-    <div className='card' onMouseEnter={hoverPlay} onClick={clickPlay}>
+    <div className='card' onMouseEnter={handleMouseEnter} onClick={clickPlay}>
       <div className="one">
         <img src={Back} alt="Loading.." className='img' />
         <span className='left'>{club}</span>
