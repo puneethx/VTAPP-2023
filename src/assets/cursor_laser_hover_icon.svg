@@ -1,22 +1,23 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_28_27)">
+<g clip-path="url(#clip0_39_60)">
 <rect x="42.8146" y="22.8574" width="4.02904" height="3.35979" transform="rotate(60.1205 42.8146 22.8574)" fill="white"/>
-<g filter="url(#filter0_f_28_27)">
+<g filter="url(#filter0_f_39_60)">
 <path d="M38.2445 25.1377L40.788 29.5646L9.99425 47.2572C8.77179 47.9596 7.2114 47.5379 6.50904 46.3155V46.3155C5.80667 45.093 6.22829 43.5326 7.45076 42.8302L38.2445 25.1377Z" fill="#2EC3ED"/>
 </g>
 <path d="M38.3844 25.5215L40.5375 29.2689L10.1187 46.746C9.0839 47.3406 7.76303 46.9837 7.16848 45.9488V45.9488C6.57392 44.914 6.93083 43.5931 7.96565 42.9986L38.3844 25.5215Z" fill="#2EC3ED"/>
+<path d="M38.9708 26.5425L39.951 28.2485L10.2 45.3419C9.72888 45.6126 9.12756 45.4501 8.85689 44.979V44.979C8.58622 44.5079 8.7487 43.9066 9.2198 43.6359L38.9708 26.5425Z" fill="#E5F9FF"/>
 <rect x="55.1676" y="15.3813" width="4.68467" height="13.4242" rx="0.333333" transform="rotate(60.1205 55.1676 15.3813)" fill="#212121"/>
 <rect x="54.8938" y="13.6055" width="8.0386" height="1.80365" rx="0.333333" transform="rotate(60.1205 54.8938 13.6055)" fill="black"/>
 <rect x="42.9978" y="20.3135" width="8.25898" height="1.98592" rx="0.333333" transform="rotate(60.1205 42.9978 20.3135)" fill="black"/>
 <rect x="39.3148" y="22.5288" width="8.08574" height="2.89014" rx="0.333333" transform="rotate(60.1205 39.3148 22.5288)" fill="black"/>
 </g>
 <defs>
-<filter id="filter0_f_28_27" x="-2.16402" y="16.8044" width="51.2853" height="39.1261" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_39_60" x="-2.16402" y="16.8044" width="51.2853" height="39.1261" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="4.16667" result="effect1_foregroundBlur_28_27"/>
+<feGaussianBlur stdDeviation="4.16667" result="effect1_foregroundBlur_39_60"/>
 </filter>
-<clipPath id="clip0_28_27">
+<clipPath id="clip0_39_60">
 <rect width="60" height="60" fill="white"/>
 </clipPath>
 </defs>
