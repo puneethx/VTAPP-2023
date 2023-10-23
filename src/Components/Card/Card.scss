@@ -1,6 +1,5 @@
 .card {
-    cursor: pointer;
-
+    cursor: url('../../assets/cursor_laser_hover_icon.svg'), auto;
     .one {
         position: relative;
         width: 380px;
@@ -185,7 +184,7 @@
         }
         .centerImg{
             .cardImg{
-                opacity: 0.65;
+                opacity: 0.3;
                 transition: 0.3s;
             }
         }

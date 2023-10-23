@@ -15,7 +15,8 @@ const Header = () => {
     return (
         <div className='header'>
             <div className="topbar">
-                <img src={HeadLogo} alt="" className='logo' />
+                {/* <img src={HeadLogo} alt="" className='logo' /> */}
+                <h1>vTAPP 2023</h1>
             </div>
             <div className="navbar">
                 <ul>
