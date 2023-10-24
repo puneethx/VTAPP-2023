@@ -4,6 +4,7 @@ import Events from "./Components/Events/Events";
 import Food from "./Components/Food/Food";
 import Schedule from "./Components/Schedule/Schedule";
 import About from "./Components/About/About";
+import Hero from "./Components/HeroFolder/Hero";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -21,14 +22,16 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='App'>
-        <Header />
         <Routes>
-          <Route path="/" element={<Events />} />
-          <Route path="/Food&Beverages" element={<Food />} />
-          <Route path="/Schedule" element={<Schedule />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/" element={<><Header/> <Events/></>} />
+          <Route path="/Food&Beverages" element={<><Header/> <Food /></>} />
+          <Route path="/Schedule" element={<><Header/> <Schedule /></>} />
+          <Route path="/About" element={<><Header/> <About /></>} />
         </Routes>
       </div>
+      <Routes>
+        <Route path="/Hero" element={<Hero/>}/>
+      </Routes>
     </BrowserRouter>
   )
 }

@@ -3,6 +3,7 @@ import "./Events.scss"
 import Card from '../Card/Card'
 import { AiOutlineSearch } from "react-icons/ai"
 import { cardData } from "../../cardData"
+import { Link } from "react-router-dom"
 
 const Events = () => {
     const cards = cardData.map((card) => {
@@ -62,6 +63,9 @@ const Events = () => {
                 <div className='allcards'>
                     {cards}
                 </div>
+            </div>
+            <div className="btn">
+                <Link to="/Hero"><button>Hero</button></Link>
             </div>
         </div>
     )
